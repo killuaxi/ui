@@ -1,0 +1,180 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1200px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+padding-bottom: 104px;
+}
+
+
+
+
+.header__ul {
+padding-top: 33px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 155px;
+}
+
+.header__ul::after {
+    content: " ";
+    position: absolute;
+    display: block  ;
+    width: 940px;
+    height: 2px;
+    background: #828282;
+  top: 15%;
+  left: 15%;
+}
+
+.li__link {
+    font-family: 'Gilroy-Bold',sans-serif;
+font-size: 18px;
+line-height: 22px;
+color: #828282;
+transition: 0.3s;
+}
+
+.li__link:hover {
+    color: #070707;
+}
+
+.header2__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 270px;
+}
+
+.lang{
+    transform: rotate(-90deg);
+    border: none;
+    color:#828282;
+    display: flex;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.lang__eng {
+    font-family:' Gilroy-Bold',sans-serif;
+font-size: 16px;
+line-height: 20px;
+color: #828282;
+transition: 0.3s;
+}
+
+.lang__ru {
+    font-family: 'Gilroy-Bold',sans-serif;
+font-size: 16px;
+line-height: 20px;
+color:#828282;
+transition: 0.3s;
+}
+
+
+.lang__eng::after {
+    content: " ";
+    position: absolute;
+    display: block  ;
+    width: 20px;
+    height: 2px;
+    background: black;
+  transform: rotate(90deg);
+  top: 40%;
+  right: 27%;
+}
+
+.lang__eng:hover {
+    color: black;
+}
+
+.lang__ru:hover {
+    color: black;
+}
+
+ 
+ .header__h {
+    font-family: 'Gilroy-Bold',sans-serif;
+font-size: 47px;
+line-height: 59px;
+color: #070707;
+width: 123px;
+ }
+ 
+  /* font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+ */
+ 
+ .header__p {
+    font-family: 'Gilroy-Medium',sans-serif;
+font-size: 18px;
+line-height: 22px;
+color: #070707;
+height: 44.064727783203125px;
+width: 155.64593505859375px;
+left: 671.7880859375px;
+top: 183.2109375px;
+border-radius: nullpx;
+
+ }
+ 
+ .banner {
+    background: #F6F6F6;
+
+ }
+ .banner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+gap: 17px;
+padding-top: 120px;
+padding-bottom: 117px;
+ }
+ 
+ 
+ /* font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+ */
+ 
+ .banner__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 470px;
+ }
+ .banner__p {
+    font-family: 'Gilroy-Medium',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  color: #070707;
+ }
